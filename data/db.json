@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "checked": true,
+      "item": "Practice coding"
+    },
+    {
+      "id": "3",
+      "checked": false,
+      "item": "Watch Naruto"
+    },
+    {
+      "id": "5",
+      "checked": true,
+      "item": "Basic Workout"
+    },
+    {
+      "id": "6",
+      "checked": true,
+      "item": "JSON Server Completed"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+header{
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+main, .info{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer{
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.item{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 5px;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  user-select: none;
+}
+.item:last-child{
+  margin-bottom: 60px;
+}
+.item input{
+  height: 50px;
+  width: 50px;
+  accent-color: blue;
+  margin-right: 10px;
+}
+.item svg{
+  font-size: 2rem;
+  margin-left: auto;
+  color: rgb(243, 150, 150);
+  cursor: pointer;
+  min-width: 30px;
+}
+.item svg:hover{
+  color: rgb(222, 79, 103);
+}
+#addItem{
+  margin-top: 10px;
+}
+#addItem input{
+  border-radius: 5px 0 0 5px;
+}
+#addItem button{
+  background-color: orangered;
+  border-radius: 0 5px 5px 0;
+}
+#addItem input,#addItem button, #searchItem input{
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 8px;
+}
+#addItem svg{
+  color: white;
+}
+
+#addItem label, #searchItem label{
+  position: absolute;
+  left: -9999px;
+}
+#searchItem input{
+  border-radius: 5px;
+}
